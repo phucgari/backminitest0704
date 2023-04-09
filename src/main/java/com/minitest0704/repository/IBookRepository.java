@@ -6,5 +6,5 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IBookRepository extends JpaRepository<Book,Long>, JpaSpecificationExecutor {
+public interface IBookRepository extends JpaRepository<Book,Long>, JpaSpecificationExecutor<Book> {
 }

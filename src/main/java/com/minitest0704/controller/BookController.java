@@ -2,7 +2,6 @@ package com.minitest0704.controller;
 
 import com.minitest0704.model.Book;
 import com.minitest0704.service.IBookService;
-import net.bytebuddy.implementation.bind.annotation.Default;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

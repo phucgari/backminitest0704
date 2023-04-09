@@ -1,7 +1,6 @@
 package com.minitest0704.service;
 
 import com.minitest0704.model.Book;
-import org.springframework.data.jpa.domain.Specification;
 
 import java.util.List;
 import java.util.Optional;
